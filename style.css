@@ -1,0 +1,112 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container {
+    width: 400px;
+    background-color: hsl(213, 19%, 18%);
+    padding: 1.4em;
+    border-radius: 25px;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    font-size: .925rem;
+    color: hsl(217, 12%, 63%);
+    line-height: 1.55;
+}
+
+.circle-button {
+    background-color: #1f2937;
+    border: none;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    color:hsl(217, 12%, 63%);
+}
+
+.f-jc {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 5px;
+}
+
+.white-text {
+    color: white;
+    cursor: pointer;
+}
+
+.circle-button:hover{
+    background-color: hsl(25, 97%, 53%);
+    cursor: pointer;
+    color: white;
+}
+
+.submit {
+    width: 100%;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    border: none;
+    padding: .8em;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.margin-tl {
+    margin-top: 20px;
+}
+
+.selected {
+    background-color: hsl(217, 12%, 63%);
+    color: #fff;
+}
+
+.submit:hover {
+    background-color: #fff;
+    color: hsl(25, 97%, 53%);
+}
+
+.al-c {
+    text-align: center;
+}
+
+.results {
+    background-color: #1f2937;
+    border: none;
+    padding-block: .5rem;
+    padding-inline: .8rem;
+    color:hsl(25, 97%, 53%);
+    margin-block-start: 1rem;
+    border-radius: 15px;
+}
+
+
+.non-visible {
+    display: none;
+}
+
+
+@media screen and (max-width: 400px) {
+    .container {
+        width: 340px;
+        background-color: hsl(213, 19%, 18%);
+        padding: 1.4em;
+        border-radius: 25px;
+    }
+}
