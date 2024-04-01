@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/ng01233/interactive-card-challenge)
+- Live Site URL: [Add live site URL here](https://fantastic-klepon-ea75e2.netlify.app/)
 
 ## My process
 
@@ -53,8 +53,8 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/ng01233)
+- Twitter - [@yourusername](https://www.twitter.com/NikhilGrew75212)
 
 
 
